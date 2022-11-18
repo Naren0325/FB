@@ -1,6 +1,4 @@
-import Login from "./sample";
-
-
+import Login from "./Matirial UI/Login";
 function App() {
   return (
     <div className="App">
@@ -9,5 +7,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
