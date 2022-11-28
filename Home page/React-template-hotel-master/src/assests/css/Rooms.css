@@ -1,0 +1,23 @@
+.section {
+    padding: 7em 0;
+}
+.room {
+    position: relative;
+    display: block;
+}
+.room .img-wrap {
+    position: relative;
+    overflow: hidden;
+}
+.room .img-wrap img {
+    transition: 0.3s all ease-in-out;
+    transform: scale(1);
+    margin-bottom: 0 !important;
+}
+.room:hover .img-wrap img,
+.room:focus .img-wrap img {
+    transform: scale(1.05);
+}
+.letter-spacing-1 {
+    letter-spacing: 0.1em;
+}

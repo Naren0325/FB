@@ -1,0 +1,193 @@
+.section-padding-100-0 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+/* :: 3.4.0 Section Heading */
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+.section-heading .line- {
+    width: 90px;
+    height: 2px;
+    background-color: #cb8670;
+    display: block;
+    margin-bottom: 40px;
+}
+.section-heading h2 {
+    font-size: 48px;
+    color: #363636;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-heading h2 {
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-heading h2 {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .section-heading h2 {
+        font-size: 24px;
+    }
+}
+.section-heading p {
+    margin-bottom: 0;
+}
+.section-heading.text-center .line- {
+    margin: 0 auto 40px;
+}
+.section-heading.white h2,
+.section-heading.white p {
+    color: #ffffff;
+}
+.mb-100 {
+    margin-bottom: 100px !important;
+}
+/* :: 11.0 Our Hotel Area CSS */
+.single-hotel-info {
+    position: relative;
+    z-index: 1;
+}
+.single-hotel-info .hotel-info-text {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 45px;
+}
+.single-hotel-info .hotel-info-text h6 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.single-hotel-info .hotel-info-text h6 span {
+    flex: 0 0 30px;
+    max-width: 30px;
+    width: 30px;
+    margin-right: 15px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #cb8670;
+    border-radius: 50%;
+    line-height: 30px;
+    color: #ffffff;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+/* :: 10.0 Services Area CSS */
+.services-intro {
+    position: relative;
+    z-index: 1;
+}
+.services-intro .single-cool-fact {
+    width: 100%;
+}
+/* :: 18.1.0 Single Cool Facts CSS */
+.single-cool-fact {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    padding: 35px 15px;
+    border: 2px solid #cb8670;
+    text-align: center;
+    background-color: #363636;
+    margin: 0 auto;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.single-cool-fact .scf-text i {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    display: block;
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: #cb8670;
+}
+.single-cool-fact .scf-text h2 {
+    font-size: 48px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-cool-fact .scf-text h2 {
+        font-size: 48px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-cool-fact .scf-text h2 {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .single-cool-fact .scf-text h2 {
+        font-size: 30px;
+    }
+}
+.single-cool-fact .scf-text p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #ffffff;
+    line-height: 1;
+}
+.single-cool-fact:hover,
+.single-cool-fact:focus {
+    background-color: #cb8670;
+}
+.single-cool-fact:hover .scf-text i,
+.single-cool-fact:focus .scf-text i {
+    color: #ffffff;
+}
+/* :: 3.8.0 Palatin Button */
+.palatin-btn {
+    background-color: #cb8670;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    min-width: 123px;
+    height: 53px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 53px;
+    text-transform: capitalize;
+}
+.palatin-btn:hover,
+.palatin-btn:focus {
+    font-size: 16px;
+    background-color: #363636;
+    color: #ffffff;
+}
+.palatin-btn.btn-2 {
+    background-color: #363636;
+    color: #ffffff;
+}
+.palatin-btn.btn-2:hover,
+.palatin-btn.btn-2:focus {
+    font-size: 16px;
+    background-color: #cb8670;
+    color: #ffffff;
+}
+.palatin-btn.btn-3 {
+    background-color: #ffffff;
+    color: #cb8670;
+    border: 2px solid #cb8670;
+    height: 49px;
+    line-height: 48px;
+}
+.palatin-btn.btn-3:hover,
+.palatin-btn.btn-3:focus {
+    font-size: 16px;
+    background-color: #cb8670;
+    color: #ffffff;
+}
